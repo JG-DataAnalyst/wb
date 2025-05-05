@@ -1,0 +1,339 @@
+<!DOCTYPE HTML>
+<!--
+	Hyperspace by HTML5 UP
+	html5up.net | @ajlkn
+	Free for personal and commercial use under the CCA 3.0 license (html5up.net/license)
+-->
+<html>
+
+<head>
+	<title>Jonathan G. - Proyectos</title>
+	<meta charset="utf-8" />
+	<meta name="viewport" content="width=device-width, initial-scale=1, user-scalable=no" />
+	<link rel="stylesheet" href="assets/css/main.css" />
+	<noscript>
+		<link rel="stylesheet" href="assets/css/noscript.css" />
+	</noscript>
+</head>
+
+<body class="is-preload">
+
+	<!-- Header -->
+	<header id="header">
+		<nav>
+			<ul>
+				<li><a href="index.html">Inicio</a></li>
+			</ul>
+		</nav>
+	</header>
+
+	<!-- Wrapper -->
+	<div id="wrapper">
+
+		<!-- Main -->
+		<section id="main" class="wrapper">
+			<div class="inner">
+				<h1 class="major">Olist: Análisis de Negocio</h1>
+
+				<h2 class="major">Índice</h2>
+				<ul>
+					<li><a href="#contexto">Contexto del Proyecto</a></li>
+					<li><a href="#resumen">Resumen</a></li>
+					<li><a href="#insights">Insights</a>
+						<ul>
+							<li><a href="#ventas">Tendencias de Ventas y Tasas de Crecimiento</a></li>
+							<li><a href="#productos">Productos: Categorías y Subcategorías</a></li>
+							<li><a href="#entregas">Retrasos en las Entregas</a></li>
+							<li><a href="#comportamiento">Formas de Pago y Comportamiento del Cliente</a></li>
+						</ul>
+					</li>
+					<li><a href="#recomendaciones">Recomendaciones</a>
+						<ul>
+							<li><a href="#fidelizacion">Fidelización de Clientes</a></li>
+							<li><a href="#productos-oferta">Categorías y Productos</a></li>
+							<li><a href="#logistica">Optimización de Entregas y Logística</a></li>
+						</ul>
+					</li>
+				</ul>
+
+				<h2 class="major" id="contexto">Contexto del proyecto</h2>
+				<p>Olist es una plataforma brasileña de comercio electrónico que conecta pequeñas empresas con los
+					principales
+					marketplaces del país. Este dashboard fue desarrollado para analizar el rendimiento en ventas,
+					productos,
+					logística, clientes y vendedores. A través de Power BI, se presentan insights clave que permiten
+					identificar
+					oportunidades de mejora y apoyar la toma de decisiones estratégicas.</p>
+
+				<h2 class="major" id="resumen">Resumen</h2>
+				<p>El análisis refleja un crecimiento notable de Olist, especialmente en 2018 en comparación con 2017.
+					Sin embargo, en
+					los últimos tres meses de 2018 se ha registrado una leve desaceleración. Uno de los principales
+					desafíos es la baja
+					tasa de retención de clientes: solo un <strong style="color:#F7374F;">2,12%</strong> de los clientes
+					realizaron más
+					de una compra en 2018. Esto evidencia la necesidad de enfocar esfuerzos en estrategias de
+					fidelización. Otro aspecto
+					preocupante es el incremento en los pedidos entregados fuera de plazo, que alcanzaron un <strong
+						style="color:#F7374F;">7,62%</strong> en 2018, afectando negativamente la experiencia del
+					cliente y sus reseñas.
+					Además, los ingresos están altamente concentrados en pocas categorías: apenas <strong
+						style="color:#FFFFFF;">4</strong> de las <strong style="color:#FFFFFF;">12</strong> disponibles
+					generan la
+					mayoría de las ventas, lo que puede limitar la diversificación y el crecimiento futuro. Para
+					sostener el crecimiento
+					a largo plazo, será clave aumentar la fidelización, optimizar la logística, mejorar la puntualidad
+					en las entregas y ampliar
+					la variedad de
+					productos ofrecidos.</p>
+				</p>
+
+				<figure>
+					<img src="ERD/ERD.png" alt="ERD de Olist" style="max-width: 100%; height: auto; margin-top: 20px;">
+					<figcaption style="text-align: center; font-style: italic;">Olist ERD</figcaption>
+				</figure>
+				<p></p>
+
+				<h2 class="major" id="insights">Insights</h2>
+				<h3 id="ventas">Tendencias de Ventas y Tasas de Crecimiento</h3>
+				<ul style="text-align: justify;">
+					<li><strong>Crecimiento destacado:</strong> Hasta agosto de 2018, se observa un aumento del <strong
+							style="color:#00cc00;">140%</strong> en los indicadores clave (<strong>Ingresos, Beneficios
+							y
+							Pedidos</strong>) en comparación con el mismo período del año anterior.</li>
+					<li><strong>Señales de estancamiento:</strong> A pesar del fuerte crecimiento respecto al periodo
+						anterior,
+						los últimos tres meses muestran una desaceleración según la tasa de crecimiento intermensual.
+					</li>
+					<li><strong>Posible estacionalidad:</strong> En 2017, el segundo semestre presentó un mejor
+						desempeño que el
+						primero, lo que sugiere una posible estacionalidad. Sin embargo, debido a la falta de registros
+						de años
+						anteriores, no es posible confirmar si este patrón se repetirá o si fue un fenómeno aislado.
+					</li>
+				</ul>
+				<figure style="text-align: center;">
+					<img src="Sales/Sales_rate.png" alt="KPIs - Profits over Time"
+						style="max-width: 100%; height: auto; margin-top: 20px;">
+					<figcaption style="text-align: center; font-style: italic;">KPIs - Ganancias (2017–2018)
+					</figcaption>
+				</figure>
+				<p></p>
+
+				<h3 id="productos">Productos: Categorías y Subcategorías</h3>
+				<ul style="text-align: justify;">
+					<li><strong>Alta concentración:</strong> El <strong>70%</strong> de las
+						ganancias en
+						2018 proviene de solo <strong>4</strong> de las <strong>12 categorías</strong> disponibles. Esta
+						distribución se ha mantenido estable con respecto a 2017, lo que sugiere una oferta de productos
+						poco
+						diversificada.</li>
+					<li><strong>Precios accesibles:</strong> El <strong>62%</strong> de los
+						productos se
+						encuentra en un rango de precio entre <strong>0 y 100 dólares</strong>, lo que indica un enfoque
+						en
+						artículos de bajo coste.</li>
+					<li><strong>Impacto de caídas mensuales en subcategorías clave:</strong> La concentración de
+						beneficios en
+						pocas categorías incrementa la vulnerabilidad ante descensos específicos. En el último mes
+						analizado, la
+						subcategoría de <strong>relojes</strong> —que representa el <strong
+							style="color:#00cc00;">9,6%</strong>
+						del beneficio total en 2018— registró una <strong style="color:#F7374F;">caída mensual del
+							24,9%</strong>, afectando considerablemente el rendimiento general.</li>
+				</ul>
+				<figure style="text-align: center;">
+					<img src="Products/Watches.png" alt="KPIs - Profits over Time"
+						style="max-width: 100%; height: auto; margin-top: 20px;">
+					<figcaption style="text-align: center; font-style: italic;">Subcategorías y último mes MoM
+					</figcaption>
+				</figure>
+				<p></p>
+
+				<h3 id="entregas">Retrasos en las Entregas</h3>
+				<ul style="text-align: justify;">
+					<li><strong>Entregas fuera de plazo:</strong> En comparación con el año anterior, el porcentaje de
+						pedidos
+						entregados fuera de plazo se ha incrementado en un <strong
+							style="color:#F7374F;">123,5%</strong>, pasando del
+						<strong style="color:#00cc00;">3,41%</strong> en 2017 al <strong
+							style="color:#F7374F;">7,62%</strong> en 2018.
+						Este valor supera ampliamente el umbral del <strong>5%</strong>
+						establecido como
+						referencia interna en Olist.
+					</li>
+					<li><strong>Tendencia ascendente:</strong> Aunque el volumen mensual de pedidos se ha mantenido
+						estable durante
+						2018, el porcentaje de entregas tardías ha mostrado una fuerte variabilidad. En los últimos tres
+						meses se ha
+						evidenciado una tendencia ascendente, superando el umbral del <strong>5%</strong> en el
+						último mes.</li>
+					<li><strong>Sao Paulo:</strong> Aunque anualmente el porcentaje de entregas tardías se encuentra
+						cerca del umbral, ha
+						experimentado un aumento significativo en los últimos tres meses, alcanzando el <strong
+							style="color:#F7374F;">8,91%</strong>. Este es un dato preocupante, ya que Sao Paulo
+						representa más del
+						<strong>40%</strong> de los pedidos realizados.
+					</li>
+				</ul>
+				<p></p>
+
+				<h3 id="comportamiento">Formas de Pago y Comportamiento del Cliente</h3>
+				<ul style="text-align: justify;">
+					<li><strong>Baja retención de clientes:</strong> En 2018, solo un <strong
+							style="color:#F7374F;">2,12%</strong> de los
+						clientes realizaron más de una compra, lo que revela una alarmante falta de fidelización. Esta
+						cifra representa un
+						descenso respecto al <strong style="color:#F7374F;">2,84%</strong> registrado en 2017, lo que
+						refuerza la necesidad
+						de implementar estrategias efectivas de retención para mejorar la sostenibilidad del negocio.
+					</li>
+					<li><strong>Preferencia por tarjeta de crédito:</strong> La tarjeta de crédito continúa siendo el
+						método de pago más
+						utilizado, con un <strong style="color:#FFFFFF;">76%</strong> de los pedidos en 2018, una cifra
+						similar a la de
+						2017. En 2018, el <strong style="color:#FFFFFF;">36%</strong> de los clientes eligió pagar en un
+						solo plazo, lo que representa un incremento del <strong style="color:#FFFFFF;">6%</strong> con
+						respecto a
+						2017.
+					</li>
+					<li><strong>Cambio en el patrón mensual:</strong> En 2017, la mayoría de los pedidos se concentraban
+						hacia finales
+						de mes, especialmente el día <strong>24</strong>, con una diferencia notable respecto al resto
+						de días. Sin
+						embargo, en 2018 se observa un cambio de tendencia: el <strong>día 16</strong> se convierte en
+						el más elegido, y
+						la distribución de pedidos a lo largo del mes es ahora más <em>homogénea</em>.</li>
+					<li><strong>Relación entre retrasos y puntuaciones:</strong> La valoración promedio de los productos
+						se mantiene
+						favorable en torno al <strong>4,1</strong>. Sin embargo, existe una relación directa entre los
+						<strong style="color:#F7374F;">retrasos en las entregas</strong> y las <strong
+							style="color:#F7374F;">bajas
+							puntuaciones</strong>. Un ejemplo claro es marzo de 2018, el mes con el mayor porcentaje de
+						retrasos, donde
+						la puntuación promedio descendió al mínimo anual de <strong
+							style="color:#F7374F;">3,77</strong>.
+					</li>
+				</ul>
+				<figure style="text-align: center;">
+					<img src="Products/Payment_Reviews.png" alt="Número de plazos y puntuaciones"
+						style="max-width: 100%; height: auto; margin-top: 20px;">
+					<figcaption style="text-align: center; font-style: italic;">Distribución de plazos por pedido y
+						calificaciones en marzo de 2018</figcaption>
+				</figure>
+				<P></P>
+				<h2 class="major" id="recomendaciones">Recomendaciones</h2>
+				<h3 id="fidelizacion">1. Fidelización de Clientes</h3>
+				<ul style="text-align: justify;">
+					<li><strong>Programas personalizados:</strong> Crear un sistema de recompensas para clientes
+						recurrentes, como descuentos en la segunda compra, puntos acumulables o
+						envío gratuito para fidelizar y motivar la recompra.
+					</li>
+					<li><strong>Recordatorios:</strong> Nofiticaciones por email de carritos vacios o compras
+						pendientes. Descuentos en
+						productos que ya han sido comprados con anterioridad o que podría interesar según su compra
+						anterior.
+					</li>
+
+				</ul>
+				<h3 id="productos-oferta">2. Categorías y Productos</h3>
+				<ul style="text-align: justify;">
+					<li><strong>Diversificar la Oferta de Productos:</strong> Actualmente, 4 categorías concentran el
+						70% de las ganancias,
+						lo que revela una fuerte dependencia. Para mitigar riesgos
+						y aprovechar nuevas
+						oportunidades de mercado, se recomienda impulsar las categorías con menor participación mediante
+						alianzas
+						estratégicas con los principales vendedores de esos segmentos y el desarrollo de campañas de
+						marketing específicas. Categorías como la <strong>Construcción y Herramientas</strong>,
+						<strong>Comidas y Bebidas</strong> y <strong>Material de Oficina</strong> están creciendo
+						significativamente en el año 2018.
+					</li>
+					<li><strong>Aprovechar los Productos de Bajo Costo:</strong> Con un <strong>62% de los
+							productos en
+							un rango de
+							precio entre 0 y 100 dólares</strong>, enforcar las campañas y esfuerzos en productos
+						accesibles
+						para
+						capturar el mercado
+						de clientes sensibles al precio. Aprovecha esta fortaleza con <strong>promociones
+							segmentadas</strong> basadas
+						en el precio.</li>
+				</ul>
+
+				<h3 id="logistica">3. Optimización de Entregas y Logística</h3>
+				<ul style="text-align: justify;">
+					<li><strong>Mejorar la Gestión de Entregas Tardías:</strong> Es crucial revaluar los
+						SLA (Service Level Agreement) y compromisos
+						con las empresas de logística, optimizar los procesos logísticos y evaluar la posibilidad de
+						fortalecer la
+						colaboración con proveedores logísticos más eficientes para mitigar los retrasos y mejorar la
+						fiabilidad del
+						servicio. Actuar primero en regiones con un gran volumen de pedidos y que están sobrepasando
+						actualmente el 5% (<strong>Sao Paulo</strong>, <strong>Rio de Janeiro</strong>, <strong>Minas
+							Gerais</strong>)
+					</li>
+
+					<li><strong>Medidas compensatorias:</strong> Reinvertir los beneficios actuales en promociones o
+						descuentos dirigidos a los clientes afectados, incentivándolos a realizar nuevas compras y
+						fomentar el consumo de otros productos.
+					</li>
+					</li>
+				</ul>
+				<h3>Conclusión</h3>
+				<p>Al implementar estas recomendaciones, Olist puede capitalizar su crecimiento, mitigar los
+					riesgos de
+					estancamiento y
+					optimizar las operaciones, mejorando la satisfacción del cliente y asegurando la
+					sostenibilidad a
+					largo plazo.</p>
+
+
+				<h3>Suposiciones y Consideraciones para el Desarrollo del Proyecto</h3>
+				<ul style="text-align: justify;">
+					<li><strong>Beneficios:</strong> Se asumió que los beneficios de Olist son el 30% del precio de
+						venta
+						de cada
+						producto, ya que este dato no se encuentra en el dataset proporcionado.</li>
+					<li><strong>Tasa de Clientes Recurrentes:</strong> Resulta extraño que la tasa de clientes con más
+						de una compra
+						sea tan baja, ya que este comportamiento podría ser indicativo de una baja retención de
+						clientes.</li>
+					<li><strong>Creación de Categorías:</strong> Las categorías no venían predefinidas en el dataset,
+						por lo que se
+						crearon artificialmente para poder realizar el análisis.</li>
+					<li><strong>Información de Vendedores:</strong> Solo se contaba con IDs para las compañías de los
+						vendedores,
+						por lo que fue necesario añadir un nombre a cada compañía.</li>
+					<li><strong>Fecha de Creación del Cliente:</strong> El dataset no incluye información sobre la fecha
+						de creación
+						del cliente, lo que limita el análisis del ciclo de vida del cliente.</li>
+					<li><strong>Envíos Devueltos:</strong> No se dispone de información sobre los envíos devueltos, lo
+						que podría
+						afectar la precisión de algunas métricas relacionadas con la logística y satisfacción del
+						cliente.</li>
+				</ul>
+
+
+		</section>
+
+	</div>
+
+	<!-- Footer -->
+	<footer id="footer" class="wrapper alt">
+		<div class="inner">
+		</div>
+	</footer>
+
+	<!-- Scripts -->
+	<script src="assets/js/jquery.min.js"></script>
+	<script src="assets/js/jquery.scrollex.min.js"></script>
+	<script src="assets/js/jquery.scrolly.min.js"></script>
+	<script src="assets/js/browser.min.js"></script>
+	<script src="assets/js/breakpoints.min.js"></script>
+	<script src="assets/js/util.js"></script>
+	<script src="assets/js/main.js"></script>
+
+</body>
+
+</html>

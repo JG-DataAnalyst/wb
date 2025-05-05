@@ -1,0 +1,274 @@
+<!DOCTYPE HTML>
+<!--
+	Hyperspace by HTML5 UP
+	html5up.net | @ajlkn
+	Free for personal and commercial use under the CCA 3.0 license (html5up.net/license)
+-->
+<html>
+
+<head>
+	<title>Jonathan G. - Proyectos</title>
+	<meta charset="utf-8" />
+	<meta name="viewport" content="width=device-width, initial-scale=1, user-scalable=no" />
+	<link rel="stylesheet" href="assets/css/main.css" />
+	<noscript>
+		<link rel="stylesheet" href="assets/css/noscript.css" />
+	</noscript>
+</head>
+
+<body class="is-preload">
+
+	<!-- Header -->
+	<header id="header">
+		<nav>
+			<ul>
+				<li><a href="index.html">Inicio</a></li>
+			</ul>
+		</nav>
+	</header>
+
+	<!-- Wrapper -->
+	<div id="wrapper">
+
+		<!-- Main -->
+		<section id="main" class="wrapper">
+			<div class="inner">
+				<h1 class="major">Inventario Técnico: Control y Optimización</h1>
+
+				<h2 class="major">Índice</h2>
+				<ul>
+					<li><a href="#contexto">Contexto del Proyecto</a></li>
+					<li><a href="#resumen">Resumen</a></li>
+					<li><a href="#insights">Insights</a>
+						<ul>
+							<li><a href="#ventas">Situación Actual</a></li>
+							<li><a href="#productos">Análisis de productos según stock de seguridad
+								</a></li>
+							<li><a href="#entregas">Tendencia de consumo</a></li>
+							<li><a href="#comportamiento">Proveedores</a></li>
+						</ul>
+					</li>
+					<li><a href="#recomendaciones">Recomendaciones</a>
+						<ul>
+							<li><a href="#fidelizacion">Ajuste de niveles de stock de seguridad</a></li>
+							<li><a href="#productos-oferta">Estrategia de compras</a></li>
+							<li><a href="#logistica">Clasificación de productos según criticidad operativa</a></li>
+						</ul>
+					</li>
+				</ul>
+
+				<h2 class="major" id="contexto">Contexto del proyecto</h2>
+				<p>El dashboard fue desarrollado para dar seguimiento diario a la gestión del inventario de un almacén
+					industrial que
+					abastece a técnicos internos. Su enfoque principal es ofrecer una visión clara del estado actual del
+					stock, los últimos
+					movimientos y los pedidos en curso, facilitando el control operativo. Además, incorpora indicadores
+					clave del mes,
+					análisis de consumo por producto y técnico, y tendencias generales que permiten detectar necesidades
+					de reposición y
+					mantener la operativa fluida y sin interrupciones.</p>
+
+				<h2 class="major" id="resumen">Resumen</h2>
+				<p>
+					El dashboard nos muestra que actualmente hay <strong style="color:#F7374F;">4</strong> pedidos
+					pendientes de
+					recepción,
+					relacionados con productos cuyo stock está por debajo del nivel de seguridad. Aunque su enfoque
+					principal es la gestión operativa, el análisis revela varios puntos clave. El consumo en 2025 es
+					<strong style="color:#00cc00;">menor</strong> que en 2024,
+					mientras que
+					<strong style="color:#F7374F;">8</strong> productos presentan un alto riesgo de rotura de stock
+					debido al <strong style="color:#F7374F;">aumento reciente en su consumo</strong> y a que,
+					durante el último año, han estado por debajo del stock de seguridad <strong
+						style="color:#F7374F;">más del
+						15%</strong> del tiempo.
+					Además, se ha recibido algún pedido <strong style="color:#00cc00;">todas las semanas</strong>
+					en los últimos 11 meses
+					aunque
+					cada producto depende de un único <strong style="color:#F7374F;">un proveedor</strong>, lo que
+					limita la flexibilidad ante posibles incidencias
+				</p>
+				<figure style="text-align: center;">
+					<img src="ERD/ERD2.png" alt="ERD" style="max-width: 100%; height: auto; margin-top: 20px;">
+					<figcaption style="font-style: italic;">ERD</figcaption>
+				</figure>
+				<p></p>
+
+				<h2 class="major" id="insights">Insights</h2>
+				<h3 id="ventas">Situación Actual</h3>
+				<ul style="text-align: justify;">
+					<li><strong>Productos a Vigilar:</strong> A pesar de la caída en el consumo durante febrero de 2025,
+						el consumo actual
+						en abril es un <strong style="color:#F7374F;">5%</strong> superior al del año pasado, impulsado
+						por productos como Electric Motor, con
+						un <strong style="color:#F7374F;">113%</strong> de aumento, llegando prácticamente al consumo
+						mensual que tuvo el año pasado.
+						Más de la mitad de los productos han registrado un mayor consumo este mes en comparación con el
+						mes anterior, lo que proyecta un gasto mensual superior a los 38.000 dólares registrados en
+						abril del año pasado.
+					<li>
+					<li><strong>Pedidos actuales y futuros:</strong> En este momento, hay <strong
+							style="color:#F7374F;">4</strong> productos por debajo del
+						stock de seguridad,
+						para los cuales ya se ha realizado el pedido. Según el consumo semanal proyectado para los
+						próximos 2 meses, basado
+						en datos históricos, se estima que un total de <strong style="color:#F7374F;">10</strong>
+						productos estarán por debajo del stock de
+						seguridad en las próximas 2 semanas.
+
+					</li>
+
+				</ul>
+				<figure style="text-align: center;">
+					<img src="Products/Electric motor.png" alt="KPIs - Profits over Time"
+						style="max-width: 100%; height: auto; margin-top: 20px;">
+					<figcaption style="text-align: center; font-style: italic;">Electric Motor
+					</figcaption>
+				</figure>
+				<p></p>
+
+				<h3 id="productos">Análisis de productos según stock de seguridad</h3>
+				<ul style="text-align: justify;">
+					<li><strong>Ignition Switch:</strong> Este producto ha experimentado un aumento de consumo anual
+						superior al <strong style="color:#F7374F;">37%</strong> en
+						comparación con el año anterior. Preocupa especialmente su situación, ya que durante el último
+						año ha estado por
+						debajo del stock de seguridad el <strong style="color:#F7374F;">20,5%</strong> del tiempo, lo
+						que, sumado al crecimiento en la demanda,
+						lo convierte en un candidato especialmente vulnerable a episodios de desabastecimiento.</li>
+					<li><strong>Productos a vigilar - Alto riesgo de desabastecimiento:</strong> Un total de <strong
+							style="color:#F7374F;">8</strong>
+						productos, incluyendo el ya mencionado
+						<em>Ignition Switch</em>,
+						han incrementado su consumo en lo que va de año y han estado por debajo del stock de seguridad
+						más del <strong style="color:#F7374F;">15%</strong> del
+						tiempo. Debido a estas dos circunstancias, estos productos requieren especial atención debido a
+						un riesgo de desabastecimiento.
+					</li>
+
+					<li><strong>Productos con bajo riesgo aparente pero potencial sobrestock:</strong> Un porcentaje
+						inferior al <strong style="color:#F7374F;">5%</strong> de
+						días por debajo del stock de seguridad puede deberse a un exceso de stock o a un bajo
+						nivel de consumo. Actualmente, hay 6 productos en esta situación, y 5 de ellos han reducido su
+						consumo anual respecto al
+						año anterior. Esto sugiere que los niveles de stock de seguridad actuales podrían estar
+						sobredimensionados, por lo que se recomienda revisar y ajustar sus niveles. </li>
+				</ul>
+				<figure style="text-align: center;">
+					<img src="Products/Low_Movements.png" alt="KPIs - Profits over Time"
+						style="max-width: 100%; height: auto; margin-top: 20px;">
+					<figcaption style="text-align: center; font-style: italic;">Productos potencialmente
+						sobredimensionados
+					</figcaption>
+				</figure>
+				<p></p>
+
+				<h3 id="entregas">Tendencia de consumo</h3>
+				<ul style="text-align: justify;">
+					<li><strong>Consumo en valor:</strong> Al analizar los datos del año pasado, observamos que el
+						consumo se
+						mantuvo relativamente estable, rondando los 35.000 dólares. Sin embargo, se registró una
+						disminución significativa
+						en julio de 2024. Aún faltan datos históricos suficientes para determinar si esta caída es una
+						tendencia o
+						simplemente un hecho aislado.</li>
+					<li><strong>Consumo en unidades:</strong> El consumo de unidades por semana ha permanecido
+						estable durante
+						los últimos 12 meses, con excepción de algunas semanas específicas (como Navidad y Año Nuevo).
+					</li>
+				</ul>
+				<figure style="text-align: center;">
+					<img src="Products/Consumo.png" alt="KPIs - Profits over Time"
+						style="max-width: 100%; height: auto; margin-top: 20px;">
+					<figcaption style="text-align: center; font-style: italic;">Consumo en valor (2024-2025)
+					</figcaption>
+				</figure>
+				<p></p>
+
+				<h3 id="comportamiento">Proveedores</h3>
+				<ul style="text-align: justify;">
+					<li><strong>Fiabilidad en las entregas:</strong> En los últimos 12 meses no se han registrado
+						entregas con retraso.
+						Todos los pedidos fueron recibidos dentro del plazo estimado, con tiempos de entrega que oscilan
+						entre 7 y 14
+						días, lo que refleja un buen nivel de fiabilidad y consistencia en la cadena de suministro.</li>
+					<li><strong>Dependencia de proveedor único:</strong> Aunque los tiempos de entrega actuales son
+						fiables, la
+						dependencia de un único proveedor representa un riesgo latente que podría comprometer esa
+						estabilidad ante posibles imprevistos.</li>
+				</ul>
+				<P></P>
+				<h2 class="major" id="recomendaciones">Recomendaciones</h2>
+				<h3 id="fidelizacion">1. Ajuste de niveles de stock de seguridad</h3>
+				<ul style="text-align: justify;">
+					<li><strong>Reducir stock de seguridad</strong> en aquellos productos con bajo consumo y con un
+						tiempo por debajo del
+						mínimo inferior al 5%, para evitar sobrestock y liberar espacio o capital.</li>
+
+					<li><strong>Revisar y aumentar stock mínimo</strong> cuando se detecte un crecimiento sostenido del
+						consumo y el
+						producto haya estado por debajo del nivel de seguridad más del 15% del tiempo.</li>
+
+				</ul>
+				<h3 id="productos-oferta">2. Estrategia de compras</h3>
+				<ul style="text-align: justify;">
+					<li><strong>Buscar proveedores alternativos:</strong> para productos críticos o con alto riesgo de
+						rotura de stock, reducir
+						la dependencia de un único proveedor puede mejorar la resiliencia ante retrasos o incidencias.
+					</li>
+					<li><strong>Agrupar pedidos por proveedor</strong> cuando sea posible, para reducir frecuencia de
+						compras y ganar eficiencia logística.
+					</li>
+					<li><strong>Priorizar productos de alto riesgo</strong> en los pedidos, considerando tanto el
+						historial como la tendencia reciente de
+						consumo.
+				</ul>
+
+				<h3 id="logistica">3. Clasificación de productos según criticidad operativa</h3>
+
+
+				<ul style="text-align: justify;">
+					<li><strong>Establecer niveles de criticidad (Alta / Media / Baja):</strong> basados en el impacto
+						que tendría la
+						falta del producto sobre la operativa técnica. Esto permite priorizar compras y controles de
+						stock.</li>
+					<li><strong>Combinar datos históricos con conocimiento experto:</strong> por ejemplo, un producto
+						con consumo bajo
+						pero imprescindible para reparaciones críticas podría ser de alta criticidad según los técnicos.
+					</li>
+					<li><strong>Incorporar el feedback de los técnicos:</strong> mediante encuestas o sesiones breves
+						para evaluar el
+						grado de impacto de cada producto en su trabajo diario. Ejemplo: “Si no tienes el producto X,
+						¿puedes seguir
+						trabajando normalmente?”</li>
+				</ul>
+				<h3>Conclusión</h3>
+				<p>El análisis realizado destaca áreas clave de mejora en la gestión del inventario, como el riesgo de
+					desabastecimiento de
+					ciertos productos y la dependencia de proveedores únicos. La implementación de recomendaciones
+					podría optimizar la
+					eficiencia operativa y reducir riesgos.</p>
+
+
+		</section>
+
+	</div>
+
+	<!-- Footer -->
+	<footer id="footer" class="wrapper alt">
+		<div class="inner">
+		</div>
+	</footer>
+
+	<!-- Scripts -->
+	<script src="assets/js/jquery.min.js"></script>
+	<script src="assets/js/jquery.scrollex.min.js"></script>
+	<script src="assets/js/jquery.scrolly.min.js"></script>
+	<script src="assets/js/browser.min.js"></script>
+	<script src="assets/js/breakpoints.min.js"></script>
+	<script src="assets/js/util.js"></script>
+	<script src="assets/js/main.js"></script>
+
+</body>
+
+</html>
